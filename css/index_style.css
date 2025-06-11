@@ -1,0 +1,52 @@
+#slogun {
+  position: relative;
+  top: 5px;
+  left: 200px;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.vertical_carousel {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.vertical_carousel .slides {
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.5s ease-in-out;
+}
+
+.vertical_carousel .slide {
+  flex: 0 0 100%;
+}
+
+.vertical_carousel img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.vertical_carousel button {
+  position: absolute;
+  right: 1%;
+  transform: translateX(-50%);
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.vertical_carousel .prev {
+  top: 200px;
+}
+.vertical_carousel .next {
+  bottom: 200px;
+}

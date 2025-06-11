@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  height: 110px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  margin: 10px;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input,
+form button {
+  margin-top: 5px;
+}
+
+#header_sign_in {
+  position: absolute;
+  right: 30px;
+  top: 10px;
+}
+
+#header_main_menu {
+  position: absolute;
+  margin-top: 30px;
+  left: 30px;
+}
+
+.main_menu_1 {
+  font-size: 50px;
+  margin-right: 200px;
+}
+
+.main_menu_2 {
+  margin-top: 15px;
+  font-size: 30px;
+}
+
+.blank1{
+  margin-top: 2px;
+  background-color: #fff;
+  width: 1px;
+}
+
+.blank2 {
+  margin-top: 20px;
+  background-color: #fff;
+  width: 3px;
+  height: 40px;
+}
